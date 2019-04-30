@@ -1,7 +1,11 @@
 # Introduction to CSS Lab
 
+## Learning Goals
 
-## Problem Statement
+- Import a CSS file in HTML
+- Declare CSS rules
+
+## Introduction
 
 HTML's role in our websites is to provide structure, content, and link
 resources (e.g. CSS files). Its role in describing the style ("presentation")
@@ -12,13 +16,7 @@ In order to further customize the style, appearance, and interactive behavior
 of our websites, we turn to Cascading Style Sheets, or CSS. In this lab, we
 will work on implementing CSS declarations in our HTML.
 
-## Objectives
-
-1. Import a CSS file in our HTML
-2. Implement CSS declarations
-
-
-## Import a CSS File in Our HTML
+## Import a CSS File in HTML
 
 First things first: we need to make sure our HTML is loading our stylesheet.
 
@@ -33,7 +31,7 @@ In our case, we want to provide a link to our stylesheet, instead of writing
 all of our CSS code directly in the  `<style>` tag. This allows us to only have
 to write styles for the entire site once, instead of repeating every `<style>`
 element on every page.  A common workflow is to see developers work on CSS
-inside of the `<style>` tag until their styling is done. At that point they
+inside of the `<style>` tag until their styling is done. At that point, they
 move it to their external file and remove the `<style>` element from the HTML
 page. Feel free to try it out!
 
@@ -65,9 +63,12 @@ pattern will help you and other developers remove any possible confusion.
 
 Links to stylesheets should go at the end of the `<head>` section! Make sure you
 provide a _relative_ path to the stylesheet.
-Hint: Open `index.html` in the browser. You can test whether your link is working or not by the color of your headline. If it's red, it's working! If it's black, keep going - you'll get it.
 
-## Implement CSS Declarations
+**Hint**: Open `index.html` in the browser. You can test whether your link is
+working or not by the color of your headline. If it's red, it's working! If
+it's black, keep going - you'll get it.
+
+## Declare CSS Rules
 
 Now, we are going to create some CSS declarations and add styling to our
 document! First, open `index.html` in the browser to get a good idea of what
@@ -91,7 +92,6 @@ changed:
 Run `learn` to test your work and `learn submit` once you've passed all the
 tests.
 
-
 ## Conclusion
 
 CSS allows us to easily separate our 'styling' logic into separate files that
@@ -99,11 +99,8 @@ follow the 'cascading' ruleset. This enables us to keep our HTML clean and
 simple to read, without sacrificing the customization that we have come to
 expect on websites.
 
-
 ## Resources
 - [W3 Introduction to CSS](https://www.w3schools.com/Css/css_intro.asp)
 
 [unstyled]: https://curriculum-content.s3.amazonaws.com/web-development/unstyled-codepen.jpeg
 [styled]: https://curriculum-content.s3.amazonaws.com/web-development/styled-intro-to-css.png
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-css-lab'>Introduction to CSS Lab</a> on Learn.co and start learning to code for free.</p>
